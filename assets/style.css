@@ -23,6 +23,11 @@ a {
   color: #1a1a1a;
 }
 
+.site-header nav {
+  display: flex;
+  gap: 1rem;
+}
+
 main h1 {
   font-size: 1.75rem;
   margin-bottom: 0.5rem;
