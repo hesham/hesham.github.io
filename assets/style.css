@@ -25,7 +25,14 @@ a {
 
 .site-header nav {
   display: flex;
+  align-items: center;
   gap: 1rem;
+}
+
+.site-header nav a + a::before {
+  content: "·";
+  margin-right: 1rem;
+  color: #999;
 }
 
 main h1 {
