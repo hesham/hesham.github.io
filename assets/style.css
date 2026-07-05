@@ -40,20 +40,26 @@ main h1 {
   margin-bottom: 0.5rem;
 }
 
-.post-list {
-  list-style: none;
-  padding: 0;
+.post h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.25rem;
 }
 
-.post-list li {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: 0.5rem 0;
-  border-bottom: 1px solid #eee;
+.post h2 a {
+  color: inherit;
+  text-decoration: none;
 }
 
-.post-date,
+.post h2 a:hover {
+  text-decoration: underline;
+}
+
+.post + .post {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  border-top: 1px solid #eee;
+}
+
 .post-meta {
   color: #666;
   font-size: 0.9rem;
