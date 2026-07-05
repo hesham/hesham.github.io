@@ -1,0 +1,14 @@
+title: Hesham El-Nahhas
+description: Personal site of Hesham El-Nahhas.
+url: "https://hesham.ca"
+
+permalink: /blog/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

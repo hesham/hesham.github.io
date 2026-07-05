@@ -1,0 +1,48 @@
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  color: #1a1a1a;
+}
+
+a {
+  color: #0a66c2;
+}
+
+.site-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.site-header .site-title {
+  font-weight: 600;
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+main h1 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.post-date,
+.post-meta {
+  color: #666;
+  font-size: 0.9rem;
+}
